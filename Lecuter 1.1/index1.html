@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-Script</title>
+</head>
+<body>
+    
+
+        <!-- swaping start  -->
+
+
+        <table width="200" border="1" cellspacing="3">
+            <tr>
+                <td>A</td>
+                <td id="a"></td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td id="b"></td>
+            </tr>
+        </table>
+
+
+        <script>
+
+            let a = parseInt(prompt("Enter Value Of A"));
+            let b = parseInt(prompt("Enter Value Of B"));
+
+            let swap;
+
+            swap = a;
+            a = b;
+            b = swap;
+
+            document.getElementById("a").innerHTML = a;
+            document.getElementById("b").innerHTML = b;
+
+        </script>
+
+
+        <!-- sawping end -->
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-Script</title>
+</head>
+<body>
+    
+    <!-- sum -->
+
+    <table width="400" border="1" cellspacing="3">
+        <tr>
+            <td>A + B</td>
+            <td id="sum"></td>
+        </tr>
+        <tr>
+            <td>A - B</td>
+            <td id="dic"></td>
+        </tr>
+        <tr>
+            <td>A * B</td>
+            <td id="mul"></td>
+        </tr>
+        <tr>
+            <td>A / B</td>
+            <td id="dev"></td>
+        </tr>
+    </table>
+    
+
+    <script>
+
+        let a = parseInt(prompt("Enter Value Of A"));
+        let b = parseInt(prompt("Enter Value Of B"));
+
+        document.getElementById("sum").innerHTML = a+b;
+        document.getElementById("dic").innerHTML = a-b;
+        document.getElementById("mul").innerHTML = a*b;
+        document.getElementById("dev").innerHTML = a/b;
+    </script>
+
+    <!-- sum end  -->
+
+</body>
+</html>
